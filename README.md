@@ -8,7 +8,7 @@
 Gin middleware to enable `GZIP` support.
 
 ## Diffs with [Upstream](https://github.com/turfaa/gin-gzip)
-N/A
+1. Add a workaround for the `cannot write message to writer during serve error: flate: closed writer` error when returning 404 error.
 
 ## Usage
 
