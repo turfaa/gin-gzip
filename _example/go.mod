@@ -3,8 +3,8 @@ module example
 go 1.23.1
 
 require (
-	github.com/gin-contrib/gzip v1.1.0
 	github.com/gin-gonic/gin v1.10.0
+	github.com/turfaa/gin-gzip v1.1.0
 )
 
 require (
@@ -35,4 +35,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/gin-contrib/gzip => ../
+replace github.com/turfaa/gin-gzip => ../

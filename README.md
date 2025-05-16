@@ -1,24 +1,27 @@
 # GZIP gin's middleware
 
-[![Run Tests](https://github.com/gin-contrib/gzip/actions/workflows/go.yml/badge.svg)](https://github.com/gin-contrib/gzip/actions/workflows/go.yml)
+[![Run Tests](https://github.com/turfaa/gin-gzip/actions/workflows/go.yml/badge.svg)](https://github.com/turfaa/gin-gzip/actions/workflows/go.yml)
 [![codecov](https://codecov.io/gh/gin-contrib/gzip/branch/master/graph/badge.svg)](https://codecov.io/gh/gin-contrib/gzip)
-[![Go Report Card](https://goreportcard.com/badge/github.com/gin-contrib/gzip)](https://goreportcard.com/report/github.com/gin-contrib/gzip)
-[![GoDoc](https://godoc.org/github.com/gin-contrib/gzip?status.svg)](https://godoc.org/github.com/gin-contrib/gzip)
+[![Go Report Card](https://goreportcard.com/badge/github.com/turfaa/gin-gzip)](https://goreportcard.com/report/github.com/turfaa/gin-gzip)
+[![GoDoc](https://godoc.org/github.com/turfaa/gin-gzip?status.svg)](https://godoc.org/github.com/turfaa/gin-gzip)
 
 Gin middleware to enable `GZIP` support.
+
+## Diffs with [Upstream](https://github.com/turfaa/gin-gzip)
+N/A
 
 ## Usage
 
 Download and install it:
 
 ```sh
-go get github.com/gin-contrib/gzip
+go get github.com/turfaa/gin-gzip
 ```
 
 Import it in your code:
 
 ```go
-import "github.com/gin-contrib/gzip"
+import "github.com/turfaa/gin-gzip"
 ```
 
 Canonical example:
@@ -31,7 +34,7 @@ import (
   "net/http"
   "time"
 
-  "github.com/gin-contrib/gzip"
+  "github.com/turfaa/gin-gzip"
   "github.com/gin-gonic/gin"
 )
 
@@ -59,7 +62,7 @@ import (
   "net/http"
   "time"
 
-  "github.com/gin-contrib/gzip"
+  "github.com/turfaa/gin-gzip"
   "github.com/gin-gonic/gin"
 )
 
@@ -87,7 +90,7 @@ import (
   "net/http"
   "time"
 
-  "github.com/gin-contrib/gzip"
+  "github.com/turfaa/gin-gzip"
   "github.com/gin-gonic/gin"
 )
 
@@ -115,7 +118,7 @@ import (
   "net/http"
   "time"
 
-  "github.com/gin-contrib/gzip"
+  "github.com/turfaa/gin-gzip"
   "github.com/gin-gonic/gin"
 )
 
@@ -144,7 +147,7 @@ import (
   "net/http"
   "time"
 
-  "github.com/gin-contrib/gzip"
+  "github.com/turfaa/gin-gzip"
   "github.com/gin-gonic/gin"
 )
 

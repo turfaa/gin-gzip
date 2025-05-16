@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/gin-contrib/gzip"
 	"github.com/gin-gonic/gin"
+	gzip "github.com/turfaa/gin-gzip"
 )
 
 func main() {

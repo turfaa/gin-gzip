@@ -1,4 +1,4 @@
-module github.com/gin-contrib/gzip
+module github.com/turfaa/gin-gzip
 
 go 1.23.0
 
